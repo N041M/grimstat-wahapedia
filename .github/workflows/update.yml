@@ -1,0 +1,61 @@
+# The weekly copy of Wahapedia's CSV export into this repository.
+#
+# The code that does the copying lives in Grimstat (apps/cli, the `mirror` command), which is a
+# public repository, so this job checks it out and runs it. The push is to this repository, which
+# the workflow's own GITHUB_TOKEN can write to. There is no personal access token to create or
+# rotate.
+#
+# The copy carries Wahapedia's attribution requirement: "Powered by Wahapedia", https://wahapedia.ru.
+# The CLI writes that line into README.md, and it stays with the files.
+name: Update the mirror
+
+on:
+  schedule:
+    - cron: "41 5 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-the-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check out the tool that does the copying
+        uses: actions/checkout@v7
+        with:
+          repository: N041M/Grimstat
+          path: .grimstat
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 10.12.1
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: .grimstat/pnpm-lock.yaml
+      - run: pnpm install --frozen-lockfile
+        working-directory: .grimstat
+      # Each edition is written only once all of its tables have arrived, so a failure part-way
+      # leaves the published copy as it was.
+      - name: Copy the tables
+        timeout-minutes: 20
+        run: pnpm cli mirror --system wh40k-11e --system wh40k-10e --out "$GITHUB_WORKSPACE"
+        working-directory: .grimstat
+      - name: Publish
+        run: |
+          rm -rf .grimstat
+          git config user.name "grimstat-wahapedia"
+          git config user.email "grimstat-wahapedia@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+          else
+            git commit -m "Wahapedia $(date -u +%F)"
+            git push
+          fi
