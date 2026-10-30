@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T10:59:19.176Z",
+  "fetchedAt": "2026-10-30T22:42:49.561Z",
   "gameSystemId": "wh40k-10e",
   "source": {
     "id": "wahapedia-csv",
@@ -26,6 +26,7 @@
     "Abilities.csv",
     "Enhancements.csv",
     "Detachment_abilities.csv",
-    "Last_update.csv"
+    "Last_update.csv",
+    "Core_rules.html"
   ]
 }
