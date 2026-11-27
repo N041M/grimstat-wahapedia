@@ -811,15 +811,21 @@ datasheet_id|line|description|cost|
 000000432|3|YOUR 3RD+ UNIT COSTS||
 000000432|4|1 model|160|
 000000433|1|YOUR 1ST TO 2ND UNITS COST||
-000000433|2|1 model|75|
-000000433|3|2 models|150|
-000000433|4|3 models|255|
-000000433|5|YOUR 3RD+ UNIT COSTS||
-000000433|6|1 model|95|
-000000433|7|2 models|170|
-000000433|8|3 models|275|
-000000433|9|WARGEAR OPTIONS||
-000000433|10|per High-yield missile pods|5|
+000000433|2|<div class="dsHeaderComp">1 Broadside Shas’vre</div>||
+000000433|3|<div class="dsHeaderComp">0 Broadside Shas’ui</div>||
+000000433|4|1 model|75|
+000000433|5|<div class="dsHeaderComp">1 Broadside Shas’vre</div>||
+000000433|6|<div class="dsHeaderComp">1 Broadside Shas’ui</div>||
+000000433|7|2 models|150|
+000000433|8|<div class="dsHeaderComp">1 Broadside Shas’vre</div>||
+000000433|9|<div class="dsHeaderComp">2 Broadside Shas’ui</div>||
+000000433|10|3 models|255|
+000000433|11|YOUR 3RD+ UNIT COSTS||
+000000433|12|1 model|95|
+000000433|13|2 models|170|
+000000433|14|3 models|275|
+000000433|15|WARGEAR OPTIONS||
+000000433|16|per High-yield missile pods|5|
 000000434|1|YOUR 1ST UNIT COSTS||
 000000434|2|1 model|375|
 000000434|3|YOUR 2ND+ UNIT COSTS||
@@ -827,8 +833,12 @@ datasheet_id|line|description|cost|
 000000435|1|YOUR UNIT COSTS||
 000000435|2|1 model|85|
 000000436|1|YOUR UNIT COSTS||
-000000436|2|1 model|85|
-000000436|3|2 models|105|
+000000436|2|<div class="dsHeaderComp">0 Tidewall Defence Platform</div>||
+000000436|3|<div class="dsHeaderComp">1 Tidewall Shieldline</div>||
+000000436|4|1 model|85|
+000000436|5|<div class="dsHeaderComp">1 Tidewall Defence Platform</div>||
+000000436|6|<div class="dsHeaderComp">1 Tidewall Shieldline</div>||
+000000436|7|2 models|105|
 000000437|1|YOUR UNIT COSTS||
 000000437|2|1 model|90|
 000000439|1|YOUR UNIT COSTS||
@@ -4870,15 +4880,23 @@ datasheet_id|line|description|cost|
 000004130|1|YOUR UNIT COSTS||
 000004130|2|1 model|80|
 000004131|1|YOUR 1ST TO 2ND UNITS COST||
-000004131|2|3 models|85|
-000004131|3|6 models|115|
-000004131|4|6 models|170|
-000004131|5|12 models|230|
-000004131|6|YOUR 3RD+ UNIT COSTS||
-000004131|7|3 models|95|
-000004131|8|6 models|125|
-000004131|9|6 models|180|
-000004131|10|12 models|240|
+000004131|2|<div class="dsHeaderComp">3 Wolf Guard Headtaker</div>||
+000004131|3|<div class="dsHeaderComp">0 Hunting Wolf</div>||
+000004131|4|3 models|85|
+000004131|5|<div class="dsHeaderComp">3 Wolf Guard Headtaker</div>||
+000004131|6|<div class="dsHeaderComp">3 Hunting Wolf</div>||
+000004131|7|6 models|115|
+000004131|8|<div class="dsHeaderComp">6 Wolf Guard Headtaker</div>||
+000004131|9|<div class="dsHeaderComp">0 Hunting Wolf</div>||
+000004131|10|6 models|170|
+000004131|11|<div class="dsHeaderComp">6 Wolf Guard Headtaker</div>||
+000004131|12|<div class="dsHeaderComp">6 Hunting Wolf</div>||
+000004131|13|12 models|230|
+000004131|14|YOUR 3RD+ UNIT COSTS||
+000004131|15|3 models|95|
+000004131|16|6 models|125|
+000004131|17|6 models|180|
+000004131|18|12 models|240|
 000004132|1|YOUR 1ST TO 2ND UNITS COST||
 000004132|2|5 models|125|
 000004132|3|10 models|250|
@@ -4988,11 +5006,35 @@ datasheet_id|line|description|cost|
 000004173|1|YOUR UNIT COSTS||
 000004173|2|2 models|65|
 000004174|1|YOUR UNIT COSTS||
-000004174|2|5 models|110|
-000004174|3|10 models|210|
+000004174|2|<div class="dsHeaderComp">1 Kill Team Sergeant</div>||
+000004174|3|<div class="dsHeaderComp">1 Gravis Veteran</div>||
+000004174|4|<div class="dsHeaderComp">1 Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol</div>||
+000004174|5|<div class="dsHeaderComp">1 Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and Fists</div>||
+000004174|6|<div class="dsHeaderComp">1 Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists</div>||
+000004174|7|<div class="dsHeaderComp">0 Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol</div>||
+000004174|8|5 models|110|
+000004174|9|<div class="dsHeaderComp">1 Kill Team Sergeant</div>||
+000004174|10|<div class="dsHeaderComp">2 Gravis Veteran</div>||
+000004174|11|<div class="dsHeaderComp">2 Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol</div>||
+000004174|12|<div class="dsHeaderComp">2 Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and Fists</div>||
+000004174|13|<div class="dsHeaderComp">2 Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists</div>||
+000004174|14|<div class="dsHeaderComp">1 Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol</div>||
+000004174|15|10 models|210|
 000004175|1|YOUR UNIT COSTS||
-000004175|2|5 models|110|
-000004175|3|10 models|210|
+000004175|2|<div class="dsHeaderComp">1 Kill Team Sergeant</div>||
+000004175|3|<div class="dsHeaderComp">1 Gravis Veteran</div>||
+000004175|4|<div class="dsHeaderComp">1 Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol</div>||
+000004175|5|<div class="dsHeaderComp">1 Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and Fists</div>||
+000004175|6|<div class="dsHeaderComp">1 Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists</div>||
+000004175|7|<div class="dsHeaderComp">0 Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol</div>||
+000004175|8|5 models|110|
+000004175|9|<div class="dsHeaderComp">1 Kill Team Sergeant</div>||
+000004175|10|<div class="dsHeaderComp">2 Gravis Veteran</div>||
+000004175|11|<div class="dsHeaderComp">2 Deathwatch Veteran with Heavy Thunder Hammer and Bolt Pistol</div>||
+000004175|12|<div class="dsHeaderComp">2 Deathwatch Veteran with Deathwatch Marksman Bolt Carbine, Special-issue Bolt Pistol and Knives and Fists</div>||
+000004175|13|<div class="dsHeaderComp">2 Deathwatch Veteran with Stalker Bolt Rifle, Bolt Pistol and Knives and Fists</div>||
+000004175|14|<div class="dsHeaderComp">1 Deathwatch Veteran with Xenophase Blade and Special-issue Bolt Pistol</div>||
+000004175|15|10 models|210|
 000004176|1|YOUR UNIT COSTS||
 000004176|2|5 models|70|
 000004177|1|YOUR UNIT COSTS||

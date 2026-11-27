@@ -4598,7 +4598,7 @@ datasheet_id|line|ability_id|model|name|description|type|parameter|
 000003695|2|000008337||||Core||
 000003695|3|000008382||||Faction||
 000003695|4|||Dread Snipers|In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.|Datasheet||
-000003695|5|||Achillan Eye|Each time this model makes an attack with a radium jezzail that targets an <span class="kwb">INFANTRY</span> unit, you can re-roll the Wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that targets a <span class="kwb">MONSTER</span> or <span class="kwb">VEHICLE</span> unit, you can re-roll the Wound roll.|Datasheet||
+000003695|5|||Achillan Eye|Each time this model makes an attack with a radium jezzail that targets an <span class="kwb">INFANTRY</span> unit, you can re-roll the wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that targets a <span class="kwb">MONSTER</span> or <span class="kwb">VEHICLE</span> unit, you can re-roll the <b>wound roll</b>.|Datasheet||
 000003695|6|||SYDONIAN SENTINEL|This model cannot be your <span class="kwb">WARLORD</span>|Special (правая колонка)||
 000003698|1|000011158||||Faction||
 000003698|2|||Braziers of Judgement|<ul><li>This unit has Stealth.</li><li>Melee attacks that target this unit have -1 to hit rolls.</li></ul>|Datasheet||

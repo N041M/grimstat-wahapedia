@@ -2406,7 +2406,7 @@ datasheet_id|line|line_in_wargear|dice|name|description|range|type|A|BS_WS|S|AP|
 000000929|1|1||Plasma pistol – standard|pistol|12|Ranged|1|2|7|-2|1|
 000000929|2|2||Plasma pistol – supercharge|pistol, hazardous|12|Ranged|1|2|8|-3|2|
 000000929|3|1||Accursed weapon||Melee|Melee|6|2|5|-2|1|
-000000929|4|1||Astartes chainblade||Melee|Melee|7|2|5|-1|1|
+000000929|4|1||Astartes chainsword||Melee|Melee|7|2|5|-1|1|
 000000929|5|1||Daemon hammer|devastating wounds|Melee|Melee|5|3|8|-2|2|
 000000929|6|1||Power fist||Melee|Melee|5|2|8|-2|2|
 000000930|1|1||Combi-bolter|rapid fire 2|24|Ranged|2|2|5|-1|1|
@@ -4581,7 +4581,7 @@ datasheet_id|line|line_in_wargear|dice|name|description|range|type|A|BS_WS|S|AP|
 000002700|7|1||Twin Lascannon|Twin-linked|48|Ranged|1|3|12|-3|D3+3|
 000002700|8|1||Twin Macro-accelerator Cannon|Twin-linked, Sustained Hits 1|72|Ranged|12|3|10|-1|3|
 000002700|9|1||Armoured Hull||Melee|Melee|6|4|8|0|1|
-000002701|1|1||Instigator Bolt Carbine|Precision|24|Ranged|1|2|4|-2|2|
+000002701|1|1||Instigator Bolt Carbine|ASSAULT, Precision, Rapid Fire 1|24|Ranged|2|2|5|-2|2|
 000002701|2|1||Bolt Pistol|CLOSE-QUARTERS|12|Ranged|1|2|5|-1|1|
 000002701|3|1||Combat Knife|Precision, Sustained Hits 1|Melee|Melee|6|2|5|-1|1|
 000002702|1|1||Heavy Bolt Pistol|CLOSE-QUARTERS|18|Ranged|1|2|5|-1|1|
@@ -6487,7 +6487,7 @@ datasheet_id|line|line_in_wargear|dice|name|description|range|type|A|BS_WS|S|AP|
 000004035||1||Autocannon||48|Ranged|2|4|9|-1|3|
 000004036||1||Daemon hammer|devastating wounds|Melee|Melee|5|3|8|-2|2|
 000004036||1||Plasma pistol – standard|pistol|12|Ranged|1|2|7|-2|1|
-000004036||1||Astartes chainblade||Melee|Melee|7|2|5|-1|1|
+000004036||1||Astartes chainsword||Melee|Melee|7|2|5|-1|1|
 000004036||1||Accursed weapon||Melee|Melee|6|2|5|-2|1|
 000004036||1||Plasma pistol – supercharge|pistol, hazardous|12|Ranged|1|2|8|-3|2|
 000004036||1||Power fist||Melee|Melee|5|2|8|-2|2|

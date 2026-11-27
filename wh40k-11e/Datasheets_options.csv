@@ -708,7 +708,7 @@ datasheet_id|line|button|description|
 000000912|1|•|This model can be equipped with 1 hunter-killer missile.|
 000000912|2|•|This model’s Exorcist missile launcher can be replaced with 1 Exorcist conflagration rockets.|
 000000925|1|•|None|
-000000929|1|•|This model’s daemon hammer can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 accursed weapon</li><li>1 Astartes chainsword</li></ul>|
+000000929|1|•|This model’s daemon hammer can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 accursed weapon</li><li>1 astartes chainsword</li></ul>|
 000000929|2|•|This model’s plasma pistol can be replaced with 1 power fist.|
 000000930|1|•|This model’s combi-bolter can be replaced with 1 combi-weapon.|
 000000930|2|•|This model’s exalted weapon can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 chainfist</li><li>1 power fist</li></ul>|
@@ -1994,7 +1994,7 @@ datasheet_id|line|button|description|
 000004035|1|•|This model’s autocannon can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 heavy bolter</li><li>1 heavy flamer</li><li>1 lascannon</li></ul>|
 000004035|2|•|This model can be equipped with 1 hunter-killer missile.|
 000004035|3|•|This model can be equipped with one of the following:<ul style="list-style-type:circle"><li>1 heavy stubber</li><li>1 storm bolter</li></ul>|
-000004036|1|•|This model’s daemon hammer can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 accursed weapon</li><li>1 Astartes chainsword</li></ul>|
+000004036|1|•|This model’s daemon hammer can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 accursed weapon</li><li>1 astartes chainsword</li></ul>|
 000004036|2|•|This model’s plasma pistol can be replaced with 1 power fist.|
 000004037|1|•|This model’s combi-bolter can be replaced with 1 combi-weapon.|
 000004037|2|•|This model’s exalted weapon can be replaced with one of the following:<ul style="list-style-type:circle"><li>1 chainfist</li><li>1 power fist</li></ul>|
